@@ -6,8 +6,9 @@
   box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
   margin: 2em auto;
   max-width: 600px;
-  -webkit-transform: rotateZ(-2deg);
-          transform: rotateZ(-2deg);
+  opacity: 0;
+  -webkit-transform: translateY(4em) rotateZ(-5deg);
+          transform: translateY(4em) rotateZ(-5deg);
   width: 90%;
 }
 
