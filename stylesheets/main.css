@@ -234,6 +234,7 @@ footer li:first-child::before {
 html, body {
   background: #fee;
   color: #19292E;
+  overflow-x: hidden;
 }
 
 a {
@@ -289,7 +290,7 @@ header:after {
           transform: translate(-50%, -50%);
   width: 5em;
   z-index: 10;
-} 
+}
 
 .main-photo {
   background: url(../images/pizza.jpg);
